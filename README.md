@@ -1,16 +1,21 @@
-# flutterface
+# Face Identifier
 
-A new Flutter project.
+This project is based on the use of Flutter's plugin for Firebase ML Vision.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+This app allows you to take a picture either from your gallery or directly from the camera. It then identifes faces in the image and draws red squares around them.
 
-A few resources to get you started if this is your first Flutter project:
+## Working
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- The image is selected using a Flutter plugin called **ImagePicker**. 
+- The image is analyzed and faces are identified using **Firebase's ML Vision**.
+- The image is repainted using **CustomPainter** and red squares are drawn around the faces.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Reference
+
+This app is based on the following videos released on Flutter's Youtube Channel.
+
+Here are the links for further reference:
+* [Computer Vision with ML Kit](https://www.youtube.com/watch?v=ymyYUCrJnxU&list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2&index=11)
+* [Custom painting in Flutter](https://www.youtube.com/watch?v=vvI_NUXK00s&list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2&index=13)
